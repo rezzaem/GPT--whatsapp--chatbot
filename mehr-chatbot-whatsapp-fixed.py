@@ -23,7 +23,7 @@ payload = {
 headers = {
     'Accept': 'application/json',
     'Content-Type': 'application/json',
-    'api-token': 'inbox-tk.g2uluOzrUHLhpwzTLl9aDjeJ8Kc8To7jKyPSwboQtQ9WMotMZ8UySCHhap6Qp3oWwkdNXpEpuKsZWjqi'
+    'api-token': 'inbox-tk.LWBNRQkJIfnW3fC3NoIZXlzTtIEDLFMRfi376dSehKwzxeLcFTLV5vo3fQUupJcpXb350iPQk0lcnb7E'
 }
 
 response = requests.post(url, headers=headers, json=payload)
