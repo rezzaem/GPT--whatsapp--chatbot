@@ -8,6 +8,7 @@ def webhook():
     sender = request.form.get('From')
     receiver = request.form.get('To')
     message = request.form.get('Body')
+    print("print hello world for test :/")
     print(f'Message from {sender} to {receiver}: {message}')
     return '', 204
 
